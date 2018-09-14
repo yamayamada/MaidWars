@@ -1,4 +1,4 @@
-﻿Log file open, 09/10/18 14:48:09
+﻿Log file open, 09/14/18 10:03:46
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MaidWar
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.263992
+LogStats: Stats thread started at 1.077527
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.082s to configure plugins.
+LogStreaming: Display: Took  0.097s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,603 +149,547 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.10-05.48.09:286][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.10-05.48.09:286][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.10-05.48.09:299][  0]LogHAL: Display: Platform has ~ 8 GB [8430931968 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.10-05.48.09:299][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.10-05.48.09:299][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.10-05.48.09:299][  0]LogInit: Computer: DESKTOP-OA538MI
-[2018.09.10-05.48.09:299][  0]LogInit: User: 136i7670002
-[2018.09.10-05.48.09:299][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.10-05.48.09:299][  0]LogInit: High frequency timer resolution =3.328129 MHz
-[2018.09.10-05.48.09:300][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.09.10-05.48.09:300][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.10-05.48.09:300][  0]LogMemory: Process Physical Memory: 102.45 MB used, 102.45 MB peak
-[2018.09.10-05.48.09:300][  0]LogMemory: Process Virtual Memory: 93.13 MB used, 93.13 MB peak
-[2018.09.10-05.48.09:300][  0]LogMemory: Physical Memory: 4889.65 MB used,  3150.71 MB free, 8040.36 MB total
-[2018.09.10-05.48.09:300][  0]LogMemory: Virtual Memory: 549.61 MB used,  3150.71 MB free, 134217728.00 MB total
-[2018.09.10-05.48.09:314][  0]LogInit: Using OS detected language (ja-JP).
-[2018.09.10-05.48.09:314][  0]LogInit: Using OS detected locale (ja-JP).
-[2018.09.10-05.48.09:315][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2018.09.10-05.48.09:592][  0]LogStreaming: Display: Took  0.278s to InitEngineTextLocalization.
-[2018.09.10-05.48.09:593][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.10-05.48.09:634][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.10-05.48.09:634][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.10-05.48.09:788][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.10-05.48.09:788][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.10-05.48.09:820][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.09.10-05.48.09:820][  0]LogD3D11RHI:       6046/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.09.10-05.48.09:829][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.09.10-05.48.09:829][  0]LogD3D11RHI:       128/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.10-05.48.09:830][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.10-05.48.09:830][  0]LogD3D11RHI:       0/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.10-05.48.09:830][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.10-05.48.09:835][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.10-05.48.09:835][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.10-05.48.09:835][  0]LogWindows: EnumDisplayDevices:
-[2018.09.10-05.48.09:835][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.09.10-05.48.09:835][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.09.10-05.48.09:835][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.09.10-05.48.09:835][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.09.10-05.48.09:836][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.09.10-05.48.09:836][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.09.10-05.48.09:836][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.09.10-05.48.09:836][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.10-05.48.09:836][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.09.10-05.48.09:836][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
-[2018.09.10-05.48.09:836][  0]LogD3D11RHI:      Driver Date: 6-27-2017
-[2018.09.10-05.48.09:836][  0]LogRHI: Texture pool is 4232 MB (70% of 6046 MB)
-[2018.09.10-05.48.09:853][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.10-05.48.09:864][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.10-05.48.09:914][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Intermediate/Shaders/WorkingDirectory/4120/).
-[2018.09.10-05.48.09:914][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/136-i7_6700-02/AppData/Local/Temp/UnrealShaderWorkingDir/33974AF646544F61468386B3ADA13242/'.
-[2018.09.10-05.48.10:136][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.10-05.48.10:150][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.10-05.48.10:164][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.10-05.48.10:175][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.10-05.48.10:187][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.10-05.48.10:199][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.10-05.48.10:210][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.10-05.48.10:223][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.10-05.48.10:228][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.10-05.48.10:301][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.10-05.48.10:358][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.10-05.48.10:358][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.10-05.48.10:381][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.10-05.48.10:381][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.10-05.48.10:392][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.10-05.48.10:403][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.10-05.48.10:414][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.10-05.48.10:425][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.10-05.48.10:433][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.10-05.48.10:433][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.10-05.48.10:476][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.10-05.48.10:476][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.10-05.48.10:476][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.10-05.48.11:150][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.10-05.48.11:197][  0]LogDerivedDataCache: Loaded boot cache 0.05s 87MB C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.10-05.48.11:197][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.10-05.48.11:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.10-05.48.11:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.10-05.48.11:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.10-05.48.11:197][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.10-05.48.11:210][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.10-05.48.11:221][  0]LogDerivedDataCache: Using Local data cache path C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.10-05.48.11:221][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.10-05.48.11:221][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.10-05.48.11:238][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.10-05.48.11:239][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.10-05.48.11:239][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.10-05.48.11:309][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
-[2018.09.10-05.48.11:602][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.10-05.48.11:720][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.10-05.48.11:722][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.10-05.48.11:723][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.10-05.48.11:723][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.10-05.48.11:723][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.10-05.48.11:742][  0]LogNetVersion: MaidWar 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1061994905)
-[2018.09.10-05.48.12:190][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.091530 seconds
-[2018.09.10-05.48.12:195][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.10-05.48.12:195][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.10-05.48.12:195][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.10-05.48.12:902][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.10-05.48.12:914][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.10-05.48.13:037][  0]SourceControl: ソースコントロールは無効です
-[2018.09.10-05.48.13:037][  0]SourceControl: ソースコントロールは無効です
-[2018.09.10-05.48.13:038][  0]SourceControl: ソースコントロールは無効です
-[2018.09.10-05.48.13:039][  0]SourceControl: ソースコントロールは無効です
-[2018.09.10-05.48.13:178][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.10-05.48.13:233][  0]LogOcInput: OculusInput pre-init called
-[2018.09.10-05.48.13:287][  0]LogEngine: Initializing Engine...
-[2018.09.10-05.48.13:287][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.10-05.48.13:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.10-05.48.13:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.10-05.48.13:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.10-05.48.13:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.10-05.48.13:469][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.10-05.48.13:479][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.10-05.48.13:522][  0]LogInit: XAudio2 using 'ASUS PB279-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.09.10-05.48.13:533][  0]LogInit: FAudioDevice initialized.
-[2018.09.10-05.48.13:533][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.10-05.48.13:617][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.10-05.48.13:620][  0]LogInit: Texture streaming: Enabled
-[2018.09.10-05.48.13:633][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.10-05.48.13:642][  0]LogInit: Transaction tracking system initialized
-[2018.09.10-05.48.13:658][  0]BlueprintLog: New page: エディタの読み込み
-[2018.09.10-05.48.13:717][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2018.09.10-05.48.13:944][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.10-05.48.13:944][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.10-05.48.13:944][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.10-05.48.13:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.10-05.48.13:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.10-05.48.13:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.10-05.48.13:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.10-05.48.14:035][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/' took 0.01s
-[2018.09.10-05.48.14:035][  0]SourceControl: ソースコントロールは無効です
-[2018.09.10-05.48.14:036][  0]Cmd: MAP LOAD FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.10-05.48.14:036][  0]LightingResults: New page: ライティングのビルド
-[2018.09.10-05.48.14:038][  0]MapCheck: New page: マップをチェック
-[2018.09.10-05.48.14:038][  0]LightingResults: New page: <何も選択されていません>
-[2018.09.10-05.48.14:362][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.09.10-05.48.14:370][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.10-05.48.14:391][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.10-05.48.14:438][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 47.153ミリ秒かかりました。
-[2018.09.10-05.48.14:438][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.403
-[2018.09.10-05.48.14:503][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Google 日本語入力).
-[2018.09.10-05.48.14:537][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.10-05.48.14:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.10-05.48.14:553][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.10-05.48.14:559][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.10-05.48.14:564][  0]LogCollectionManager: Loaded 0 collections in 0.001215 seconds
-[2018.09.10-05.48.14:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/Collections/' took 0.01s
-[2018.09.10-05.48.14:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Developers/136i7670002/Collections/' took 0.01s
-[2018.09.10-05.48.14:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Collections/' took 0.01s
-[2018.09.10-05.48.14:606][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.10-05.48.14:614][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2572 classes and 603 folders.
-[2018.09.10-05.48.14:620][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.10-05.48.14:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.10-05.48.14:658][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.09.10-05.48.15:706][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.09.10-05.48.15:737][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.10-05.48.15:739][  0]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
-[2018.09.10-05.48.15:740][  0]LogSlate: Took 0.000485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
-[2018.09.10-05.48.15:740][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.10-05.48.15:744][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.10-05.48.15:823][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MaidWar
-[2018.09.10-05.48.15:823][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.10-05.48.15:823][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2018.09.10-05.48.15:823][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.10-05.48.15:823][  0]LogTemp: BranchPath = DESKTOP-OA538MI/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-OA538MI/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2018.09.10-05.48.15:823][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\136-i7_6700-02\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.09.10-05.48.15:823][  0]LogRenderer: Reallocating scene render targets to support 1120x580 Format 10 NumSamples 1 (Frame:1).
-[2018.09.10-05.48.15:928][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.10-05.48.15:928][  0]LogLoad: (Engine Initialization) Total time: 7.94 seconds
-[2018.09.10-05.48.15:928][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.10-05.48.15:966][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.10-05.48.15:983][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.10-05.48.15:998][  1]LogAssetRegistry: Asset discovery search completed in 4.7098 seconds
-[2018.09.10-05.48.15:999][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.10-05.48.15:999][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2018.09.10-05.48.17:708][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.10-05.50.46:635][555]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.10-05.50.51:777][555]LogSlate: Window '親クラスを選択' being destroyed
-[2018.09.10-05.51.37:269][969]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
-[2018.09.10-05.51.41:728][969]LogSlate: Window 'アニメーションBPを作成' being destroyed
-[2018.09.10-05.51.50:654][924]LogSlate: Window 'コンテンツを保存' being destroyed
-[2018.09.10-05.51.50:667][924]LogSlate: Took 0.000417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
-[2018.09.10-05.51.50:689][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AB_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset" SILENT=true
-[2018.09.10-05.51.50:712][924]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/AB_OwnerF5DC68A647C16636D2EC98A0E61D73D6.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset'
-[2018.09.10-05.51.50:717][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
-[2018.09.10-05.51.50:733][924]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerF03103514F39D6976048899095ABD505.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
-[2018.09.10-05.51.51:710][ 39]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/BP_Owner.BP_Owner
-[2018.09.10-05.51.52:275][ 39]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2018.09.10-05.51.53:138][ 39]LogRenderer: Reallocating scene render targets to support 1200x716 Format 10 NumSamples 1 (Frame:1).
-[2018.09.10-05.51.53:895][124]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.10-05.51.54:895][217]LogSlate: Window 'BP_Owner' being destroyed
-[2018.09.10-05.52.08:928][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.10-05.52.16:762][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.10-05.52.16:843][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
-[2018.09.10-05.52.16:873][827]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner68319B47423726C11AAE999515B5F987.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
-[2018.09.10-05.52.17:303][878]BlueprintLog: New page: BP_Owner をコンパイル
-[2018.09.10-05.52.20:473][229]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.10-05.52.22:845][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
-[2018.09.10-05.52.22:866][506]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerC50748E441CBD7C5BA248B8A7FE84633.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
-[2018.09.10-05.52.23:279][555]BlueprintLog: New page: BP_Owner をコンパイル
-[2018.09.10-05.52.34:365][863]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Character/AB_Owner.AB_Owner
-[2018.09.10-05.52.34:408][863]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.09.10-05.52.34:587][863]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.09.10-05.52.34:589][863]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.09.10-05.52.35:049][863]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
-[2018.09.10-05.52.35:049][863]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.10-05.52.35:079][863]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.09.10-05.52.35:121][863]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.09.10-05.54.14:423][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AB_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset" SILENT=true
-[2018.09.10-05.54.14:457][506]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/AB_Owner18181E854D98233CB4559098C35A07C2.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset'
-[2018.09.10-05.54.14:929][562]BlueprintLog: New page: AB_Owner をコンパイル
-[2018.09.10-05.57.28:679][121]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
-[2018.09.10-05.57.28:744][122]LogShaderCompilers: Display: Shaders left to compile 44
-[2018.09.10-05.57.28:744][122]LogShaderCompilers: Display: Shaders left to compile 34
-[2018.09.10-05.57.28:744][122]LogShaderCompilers: Display: Shaders left to compile 24
-[2018.09.10-05.57.28:744][122]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.09.10-05.57.28:756][122]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
-[2018.09.10-05.57.28:788][123]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
-[2018.09.10-05.57.28:821][124]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
-[2018.09.10-05.57.30:747][335]LogShaderCompilers: Display: Shaders left to compile 136
-[2018.09.10-05.57.30:865][349]LogShaderCompilers: Display: Shaders left to compile 126
-[2018.09.10-05.57.30:994][364]LogShaderCompilers: Display: Shaders left to compile 116
-[2018.09.10-05.57.32:285][512]LogShaderCompilers: Display: Shaders left to compile 106
-[2018.09.10-05.57.32:337][518]LogShaderCompilers: Display: Shaders left to compile 96
-[2018.09.10-05.57.32:669][555]LogShaderCompilers: Display: Shaders left to compile 86
-[2018.09.10-05.57.32:798][569]LogShaderCompilers: Display: Shaders left to compile 76
-[2018.09.10-05.57.34:225][740]LogShaderCompilers: Display: Shaders left to compile 66
-[2018.09.10-05.57.34:441][766]LogShaderCompilers: Display: Shaders left to compile 56
-[2018.09.10-05.57.34:658][792]LogShaderCompilers: Display: Shaders left to compile 46
-[2018.09.10-05.57.35:319][870]LogShaderCompilers: Display: Shaders left to compile 36
-[2018.09.10-05.57.36:279][985]LogShaderCompilers: Display: Shaders left to compile 26
-[2018.09.10-05.57.36:361][995]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.09.10-05.57.36:989][ 68]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.09.10-05.58.52:054][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AB_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset" SILENT=true
-[2018.09.10-05.58.52:087][537]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/AB_Owner4A8A7AA94B2EA8B0AFA82ABC3E0733CD.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset'
-[2018.09.10-05.59.45:181][842]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Damage.DebugMan_Damage
-[2018.09.10-05.59.45:191][842]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.09.10-05.59.45:527][842]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.09.10-05.59.50:305][408]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Attack_1.DebugMan_Attack_1
-[2018.09.10-05.59.53:710][796]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Dash.DebugMan_Dash
-[2018.09.10-05.59.57:643][247]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_DashAttack_0.DebugMan_DashAttack_0
-[2018.09.10-06.00.01:453][684]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Dead.DebugMan_Dead
-[2018.09.10-06.00.04:230][996]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_LongAttack_0.DebugMan_LongAttack_0
-[2018.09.10-06.00.06:950][302]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Run.DebugMan_Run
-[2018.09.10-06.00.08:900][513]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_SpecialAttack_0.DebugMan_SpecialAttack_0
-[2018.09.10-06.00.11:841][845]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_UniqueAttack_0.DebugMan_UniqueAttack_0
-[2018.09.10-06.00.14:565][148]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Walk.DebugMan_Walk
-[2018.09.10-06.00.16:733][385]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Attack_0.DebugMan_Attack_0
-[2018.09.10-06.00.19:106][649]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Attack_1.DebugMan_Attack_1
-[2018.09.10-06.00.21:457][913]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_Damage.DebugMan_Damage
-[2018.09.10-06.00.50:980][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AB_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset" SILENT=true
-[2018.09.10-06.00.51:077][942]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/AB_OwnerB3BE38AF4750D88DBB29DC849530724A.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset'
-[2018.09.10-06.00.51:352][972]BlueprintLog: New page: AB_Owner をコンパイル
-[2018.09.10-06.02.15:125][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AB_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset" SILENT=true
-[2018.09.10-06.02.15:159][993]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/AB_Owner73644F2C4345899AAE075DA6E26AE2CC.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/AB_Owner.uasset'
-[2018.09.10-06.02.15:872][ 77]BlueprintLog: New page: AB_Owner をコンパイル
-[2018.09.10-06.02.19:493][427]LogSlate: Window 'MaidWar - Unreal Editor' being destroyed
-[2018.09.10-06.02.19:700][428]Cmd: QUIT_EDITOR
-[2018.09.10-06.02.19:716][428]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Google 日本語入力).
-[2018.09.10-06.02.19:727][428]LogExit: Preparing to exit.
-[2018.09.10-06.02.20:189][428]LogExit: Editor shut down
-[2018.09.10-06.02.20:189][428]LogExit: Transaction tracking system shut down
-[2018.09.10-06.02.20:832][428]LogExit: Object subsystem successfully closed.
-[2018.09.10-06.02.20:851][428]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.09.10-06.02.20:854][428]LogD3D11RHI: Shutdown
-[2018.09.10-06.02.20:854][428]LogD3D11RHI: CleanupD3DDevice
-[2018.09.10-06.02.20:857][428]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module AnimationEditor (624)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (622)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module PinnedCommandList (620)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module SkeletonEditor (618)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (616)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (610)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2018.09.10-06.02.20:873][428]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.09.10-06.02.20:874][428]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.09.10-06.02.20:875][428]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.09.10-06.02.20:875][428]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.09.10-06.02.20:875][428]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.09.10-06.02.20:875][428]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.09.10-06.02.20:875][428]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.09.10-06.02.20:875][428]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.09.10-06.02.20:875][428]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.09.10-06.02.20:967][428]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.09.10-06.02.20:967][428]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.09.10-06.02.20:967][428]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.09.10-06.02.20:967][428]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.09.10-06.02.20:967][428]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.09.10-06.02.20:967][428]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.09.10-06.02.20:967][428]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.09.10-06.02.20:968][428]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.09.10-06.02.21:021][428]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.09.10-06.02.21:027][428]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.09.10-06.02.21:027][428]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.09.10-06.02.21:029][428]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.09.10-06.02.21:039][428]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.09.10-06.02.21:040][428]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.09.10-06.02.21:040][428]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.09.10-06.02.21:044][428]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.09.10-06.02.21:045][428]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.09.10-06.02.21:146][428]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.09.10-06.02.21:246][428]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.09.10-06.02.21:247][428]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.09.10-06.02.21:247][428]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.09.10-06.02.21:247][428]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.09.10-06.02.21:248][428]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.09.10-06.02.21:248][428]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.09.10-06.02.21:248][428]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.09.10-06.02.21:248][428]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.09.10-06.02.21:248][428]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.09.10-06.02.21:248][428]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.09.10-06.02.21:249][428]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.09.10-06.02.21:255][428]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.09.10-06.02.21:256][428]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.09.10-06.02.21:258][428]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.09.10-06.02.21:322][428]LogDerivedDataCache: Shutdown
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.09.10-06.02.21:322][428]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.09.10-06.02.21:323][428]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.09.10-06.02.21:323][428]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.09.10-06.02.21:324][428]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.09.10-06.02.21:324][428]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.09.10-06.02.21:329][428]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.09.10-06.02.21:330][428]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.09.10-06.02.21:330][428]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.09.10-06.02.21:333][428]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.09.10-06.02.21:334][428]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.09.10-06.02.21:334][428]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B703BC0E4-4252-A5AF-8528-9D8F518C7AD4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=01ed90104acfb9871489c39ae4ea063e%7Cf47d2781a25f4f39be9c9a6c4d5e713f%7C3e384a6f-665a-45f4-8828-96cd5739b813&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.09.10-06.02.21:367][428]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.09.10-06.02.21:368][428]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.09.10-06.02.21:374][428]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.09.10-06.02.21:374][428]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.09.10-06.02.21:374][428]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.09.10-06.02.21:374][428]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.09.10-06.02.21:374][428]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.09.10-06.02.21:374][428]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.09.10-06.02.21:374][428]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.09.10-06.02.21:374][428]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.09.10-06.02.21:375][428]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.09.10-06.02.21:375][428]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.09.10-06.02.21:375][428]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.09.10-06.02.21:376][428]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.09.10-06.02.21:382][428]LogExit: Exiting.
-[2018.09.10-06.02.21:401][428]Log file closed, 09/10/18 15:02:21
+[2018.09.14-01.03.47:182][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.14-01.03.47:182][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.14-01.03.47:218][  0]LogHAL: Display: Platform has ~ 8 GB [8430931968 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.14-01.03.47:218][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.14-01.03.47:219][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.14-01.03.47:226][  0]LogInit: Computer: DESKTOP-OA538MI
+[2018.09.14-01.03.47:226][  0]LogInit: User: 136i7670002
+[2018.09.14-01.03.47:226][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.14-01.03.47:226][  0]LogInit: High frequency timer resolution =3.328133 MHz
+[2018.09.14-01.03.47:226][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.09.14-01.03.47:226][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.14-01.03.47:226][  0]LogMemory: Process Physical Memory: 102.12 MB used, 102.12 MB peak
+[2018.09.14-01.03.47:226][  0]LogMemory: Process Virtual Memory: 89.33 MB used, 89.33 MB peak
+[2018.09.14-01.03.47:226][  0]LogMemory: Physical Memory: 4198.35 MB used,  3842.01 MB free, 8040.36 MB total
+[2018.09.14-01.03.47:226][  0]LogMemory: Virtual Memory: 545.98 MB used,  3842.01 MB free, 134217728.00 MB total
+[2018.09.14-01.03.47:562][  0]LogInit: Using OS detected language (ja-JP).
+[2018.09.14-01.03.47:562][  0]LogInit: Using OS detected locale (ja-JP).
+[2018.09.14-01.03.47:566][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2018.09.14-01.03.48:001][  0]LogStreaming: Display: Took  0.439s to InitEngineTextLocalization.
+[2018.09.14-01.03.48:002][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.14-01.03.48:121][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.14-01.03.48:122][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.14-01.03.50:306][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.14-01.03.50:306][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.14-01.03.50:315][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.14-01.03.50:315][  0]LogD3D11RHI:       128/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.09.14-01.03.50:353][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.09.14-01.03.50:353][  0]LogD3D11RHI:       6046/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.14-01.03.50:355][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.14-01.03.50:355][  0]LogD3D11RHI:       0/0/4020 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.14-01.03.50:355][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.09.14-01.03.50:361][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.14-01.03.50:361][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.14-01.03.50:361][  0]LogWindows: EnumDisplayDevices:
+[2018.09.14-01.03.50:362][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.09.14-01.03.50:362][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.09.14-01.03.50:362][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.09.14-01.03.50:362][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.09.14-01.03.50:362][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.14-01.03.50:362][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.14-01.03.50:362][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.14-01.03.50:362][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.14-01.03.50:362][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.09.14-01.03.50:363][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2018.09.14-01.03.50:363][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2018.09.14-01.03.50:363][  0]LogRHI: Texture pool is 4232 MB (70% of 6046 MB)
+[2018.09.14-01.03.50:385][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.14-01.03.50:415][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.14-01.03.50:422][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Intermediate/Shaders/WorkingDirectory/6760/).
+[2018.09.14-01.03.50:422][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/136-i7_6700-02/AppData/Local/Temp/UnrealShaderWorkingDir/49160C824B80647A4E4B379DC133671D/'.
+[2018.09.14-01.03.50:898][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.14-01.03.50:917][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.14-01.03.50:937][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.14-01.03.50:958][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.14-01.03.50:997][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.14-01.03.51:033][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.14-01.03.51:056][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.14-01.03.51:081][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.14-01.03.51:098][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.14-01.03.51:199][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.14-01.03.51:209][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.14-01.03.51:300][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.14-01.03.51:300][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.14-01.03.51:331][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.14-01.03.51:331][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.14-01.03.51:359][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.14-01.03.51:381][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.14-01.03.51:406][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.14-01.03.51:431][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.14-01.03.51:447][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.14-01.03.51:447][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.14-01.03.51:985][  0]LogXGEController: Cleaning working directory: C:/Users/136-i7_6700-02/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.14-01.03.51:986][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.14-01.03.51:986][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.14-01.03.51:986][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.14-01.03.53:654][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.14-01.03.54:101][  0]LogDerivedDataCache: Loaded boot cache 0.45s 71MB C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.14-01.03.54:102][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.14-01.03.54:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.14-01.03.54:102][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.14-01.03.54:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.14-01.03.54:102][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.14-01.03.54:164][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.14-01.03.54:177][  0]LogDerivedDataCache: Using Local data cache path C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.14-01.03.54:177][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.14-01.03.54:177][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.14-01.03.54:205][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.14-01.03.54:213][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.14-01.03.54:227][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.14-01.03.54:657][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2018.09.14-01.03.55:189][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.14-01.03.55:703][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.14-01.03.55:743][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.14-01.03.55:743][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.14-01.03.55:745][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.14-01.03.55:745][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.14-01.03.55:800][  0]LogNetVersion: MaidWar 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1061994905)
+[2018.09.14-01.03.57:602][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.116205 seconds
+[2018.09.14-01.03.57:610][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.14-01.03.57:610][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.14-01.03.57:610][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.14-01.04.01:591][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.14-01.04.01:616][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.14-01.04.02:225][  0]SourceControl: ソースコントロールは無効です
+[2018.09.14-01.04.02:225][  0]SourceControl: ソースコントロールは無効です
+[2018.09.14-01.04.02:249][  0]SourceControl: ソースコントロールは無効です
+[2018.09.14-01.04.02:270][  0]SourceControl: ソースコントロールは無効です
+[2018.09.14-01.04.03:001][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.14-01.04.03:136][  0]LogOcInput: OculusInput pre-init called
+[2018.09.14-01.04.03:337][  0]LogEngine: Initializing Engine...
+[2018.09.14-01.04.03:339][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.14-01.04.03:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.003 s
+[2018.09.14-01.04.03:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.14-01.04.03:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.14-01.04.03:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2018.09.14-01.04.03:715][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.14-01.04.03:792][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.14-01.04.03:841][  0]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.04.03:877][  0]LogInit: FAudioDevice initialized.
+[2018.09.14-01.04.03:877][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.14-01.04.04:437][  0]LogDerivedDataCache: Saved boot cache 0.56s 71MB C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.14-01.04.04:447][  0]LogInit: Texture streaming: Enabled
+[2018.09.14-01.04.04:612][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.14-01.04.04:612][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={3808ACC0-4F5D-0BAA-45F9-449F85D2148B}
+[2018.09.14-01.04.04:654][  0]LogInit: Transaction tracking system initialized
+[2018.09.14-01.04.04:763][  0]BlueprintLog: New page: エディタの読み込み
+[2018.09.14-01.04.05:178][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2018.09.14-01.04.06:027][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.14-01.04.06:027][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.14-01.04.06:028][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.14-01.04.06:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.14-01.04.06:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.14-01.04.06:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.14-01.04.06:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.14-01.04.06:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/' took 0.01s
+[2018.09.14-01.04.06:656][  0]SourceControl: ソースコントロールは無効です
+[2018.09.14-01.04.06:657][  0]Cmd: MAP LOAD FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.14-01.04.06:664][  0]LightingResults: New page: ライティングのビルド
+[2018.09.14-01.04.06:675][  0]MapCheck: New page: マップをチェック
+[2018.09.14-01.04.06:675][  0]LightingResults: New page: <何も選択されていません>
+[2018.09.14-01.04.07:576][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.14-01.04.07:615][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.14-01.04.07:646][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.14-01.04.07:695][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 49.249ミリ秒かかりました。
+[2018.09.14-01.04.07:695][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.039
+[2018.09.14-01.04.07:913][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.04.07:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.04.07:928][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.04.07:934][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.04.07:955][  0]LogCollectionManager: Loaded 0 collections in 0.001297 seconds
+[2018.09.14-01.04.08:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/Collections/' took 0.01s
+[2018.09.14-01.04.08:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Developers/136i7670002/Collections/' took 0.01s
+[2018.09.14-01.04.08:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Collections/' took 0.01s
+[2018.09.14-01.04.08:005][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.14-01.04.08:012][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2572 classes and 603 folders.
+[2018.09.14-01.04.08:020][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.14-01.04.08:425][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.14-01.04.08:441][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.14-01.04.09:773][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.14-01.04.09:813][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MaidWar
+[2018.09.14-01.04.09:813][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.14-01.04.09:813][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.09.14-01.04.09:813][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.14-01.04.09:813][  0]LogTemp: BranchPath = DESKTOP-OA538MI/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-OA538MI/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.14-01.04.09:813][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\136-i7_6700-02\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.14-01.04.09:813][  0]LogSlate: Took 0.010463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.14-01.04.09:822][  0]LogSlate: Took 0.006679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2018.09.14-01.04.09:829][  0]LogSlate: Took 0.006584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2018.09.14-01.04.09:833][  0]LogSlate: Took 0.004059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.14-01.04.09:842][  0]LogSlate: Took 0.004970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.14-01.04.10:001][  0]LogRenderer: Reallocating scene render targets to support 1120x580 Format 10 NumSamples 1 (Frame:1).
+[2018.09.14-01.04.10:196][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.14-01.04.10:196][  0]LogLoad: (Engine Initialization) Total time: 30.93 seconds
+[2018.09.14-01.04.10:196][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.14-01.04.10:239][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.14-01.04.10:281][  1]LogAssetRegistry: Asset discovery search completed in 15.6471 seconds
+[2018.09.14-01.04.10:283][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.14-01.04.10:283][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2018.09.14-01.04.11:234][ 94]LogSlate: Took 0.008181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2018.09.14-01.04.11:240][ 94]LogSlate: Took 0.005708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.14-01.04.13:996][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.04.14:129][427]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.14-01.04.20:441][123]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/DebugMan/Animation/DebugMan_DashAttack_0.DebugMan_DashAttack_0
+[2018.09.14-01.04.20:590][123]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.14-01.04.20:895][123]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.14-01.04.20:899][123]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.09.14-01.04.21:417][123]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.09.14-01.04.21:423][123]LogRenderer: Reallocating scene render targets to support 1144x580 Format 10 NumSamples 1 (Frame:1).
+[2018.09.14-01.04.21:423][123]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.09.14-01.04.23:630][286]LogSlate: Window 'DebugMan_DashAttack_0' being destroyed
+[2018.09.14-01.04.48:695][ 31]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade2_N731923304E0BDC7F6EECABB324799EA1.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Weapons/Blade/T_Blade_ChickenBlade2_N.uasset'
+[2018.09.14-01.04.48:742][ 31]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/M_Blade_ChickenBlade3398801E4DF03843EB2B8FA261D5434B.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Weapons/Blade/M_Blade_ChickenBlade.uasset'
+[2018.09.14-01.04.48:782][ 31]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/SK_Blade_ChickenBladeA2DA5C9C422B75A179E6BB8B548BC39C.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Weapons/Blade/SK_Blade_ChickenBlade.uasset'
+[2018.09.14-01.04.48:800][ 31]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/SK_Blade_ChickenBlade_SkeletonD1279DBC4D43018EBD83A4BC4C6B4D71.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Weapons/Blade/SK_Blade_ChickenBlade_Skeleton.uasset'
+[2018.09.14-01.04.48:843][ 31]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade1_D036F06874833E421D703DFB9775F8621.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Weapons/Blade/T_Blade_ChickenBlade1_D.uasset'
+[2018.09.14-01.04.48:881][ 31]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade1_NCD9E5F304D5935B68B9BD8BD14178BDF.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Weapons/Blade/T_Blade_ChickenBlade1_N.uasset'
+[2018.09.14-01.04.48:919][ 31]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade2_D422438114EB4D6B43C8607BF1107C9AA.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Weapons/Blade/T_Blade_ChickenBlade2_D.uasset'
+[2018.09.14-01.05.06:947][979]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/SK_Blade_ChickenBladeD79BE922410994752CB328A0E71B4BE1.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Blade/SK_Blade_ChickenBlade.uasset'
+[2018.09.14-01.05.06:961][979]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/SK_Blade_ChickenBlade_SkeletonC68BFD6F453D7791E5B59EAD3991BDE3.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Blade/SK_Blade_ChickenBlade_Skeleton.uasset'
+[2018.09.14-01.05.07:001][979]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/M_Blade_ChickenBlade737ECF1746C18A61B5C4CD9D53E78553.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Blade/M_Blade_ChickenBlade.uasset'
+[2018.09.14-01.05.07:034][979]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade2_DB386902341894C804BCB0A91E4C765E5.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Blade/T_Blade_ChickenBlade2_D.uasset'
+[2018.09.14-01.05.07:075][979]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade1_NE081E8F14624EB9103B042A2F8C2C236.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Blade/T_Blade_ChickenBlade1_N.uasset'
+[2018.09.14-01.05.07:115][979]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade1_DEB0BE5C14B1A383473BBEB9D5C766068.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Blade/T_Blade_ChickenBlade1_D.uasset'
+[2018.09.14-01.05.07:160][979]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/T_Blade_ChickenBlade2_NF3B4249D474341FBF8EAA385543E15AF.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Weapons/Blade/T_Blade_ChickenBlade2_N.uasset'
+[2018.09.14-01.05.19:953][351]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/BP_Owner.BP_Owner
+[2018.09.14-01.05.20:463][351]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.14-01.05.22:963][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.05.22:990][502]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerDF2DEABA490D3C45E0947B9B44DD6224.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.05.23:524][565]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.05.24:761][669]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/BP_Owner.BP_Owner
+[2018.09.14-01.05.25:154][669]LogSlate: Took 0.014747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2018.09.14-01.05.25:160][669]LogSlate: Took 0.006151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.14-01.09.09:465][859]LogSlate: Took 0.006170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.14-01.11.23:995][711]LogRenderer: Reallocating scene render targets to support 1200x716 Format 10 NumSamples 1 (Frame:1).
+[2018.09.14-01.12.12:892][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.18.26:212][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.18.26:243][551]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerCCF9DB664CAA296C1E0DB6A9D48D83B7.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.18.26:738][609]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.18.29:245][843]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/ThirdPersonExampleMap7557A5D54ADB44E11501C8BD9200C4F7.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.14-01.18.29:408][843]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/ThirdPersonExampleMap_BuiltDataA5715279495FA53C67EF3389ED9FC631.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.14-01.23.23:923][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.23.23:955][731]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner26F91CF749CE116C58032CA197F5F81B.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.23.24:377][780]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.23.26:167][960]LogTemp: Repeating last play command: 選択ビューポート
+[2018.09.14-01.23.26:192][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-01.23.26:193][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-01.23.26:217][960]PIE: New page: PIEセッション: ThirdPersonExampleMap (2018/09/14 19:23:26)
+[2018.09.14-01.23.26:218][960]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.09.14-01.23.26:229][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011666s)
+[2018.09.14-01.23.26:230][960]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.14-01.23.26:231][960]LogPlayLevel: PIE: World Init took: (0.001616s)
+[2018.09.14-01.23.26:231][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013980s)
+[2018.09.14-01.23.26:263][960]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.23.26:268][960]LogInit: FAudioDevice initialized.
+[2018.09.14-01.23.26:278][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.23.26:345][960]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.14-01.23.26:350][960]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.14-10.23.26
+[2018.09.14-01.23.26:353][960]LogWorld: Bringing up level for play took: 0.006684
+[2018.09.14-01.23.26:430][960]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.09.14-01.23.26:438][960]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.364のプレイ イン エディタの開始時間
+[2018.09.14-01.23.26:439][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-01.23.26:485][960]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.09.14-01.23.27:466][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-01.23.27:472][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.23.27:489][ 53]LogSlate: Window 'MaidWar ゲームプレビュー Standalone (64-ビット/PCD3D_SM5)' being destroyed
+[2018.09.14-01.23.27:521][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.14-01.23.27:521][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.14-01.23.27:572][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.09.14-01.23.39:884][441]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.09.14-01.23.41:530][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.24.00:113][767]LogSlate: Window '名前を付けてレベルを保存する' being destroyed
+[2018.09.14-01.24.00:520][767]LogAIModule: Creating AISystem for world TestMap
+[2018.09.14-01.24.00:687][767]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap81B4851844D1AB817421F496988CDF9A.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap.umap'
+[2018.09.14-01.24.00:698][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox/TestMap_BuiltData" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap_BuiltData.uasset" SILENT=true
+[2018.09.14-01.24.00:787][767]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap_BuiltData8170705C4D52E0E7A8ECD180C991F55C.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap_BuiltData.uasset'
+[2018.09.14-01.24.00:798][767]LogFileHelpers: Saving map 'TestMap' took 0.679
+[2018.09.14-01.24.00:804][767]Cmd: MAP LOAD FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.14-01.24.00:816][767]LightingResults: New page: ライティングのビルド
+[2018.09.14-01.24.00:817][767]LoadErrors: New page: マップをロード中: TestMap.umap
+[2018.09.14-01.24.00:850][767]MapCheck: New page: マップをチェック
+[2018.09.14-01.24.00:850][767]LightingResults: New page: <何も選択されていません>
+[2018.09.14-01.24.00:981][767]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.14-01.24.01:035][767]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.14-01.24.01:096][767]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 61.395ミリ秒かかりました。
+[2018.09.14-01.24.01:096][767]LogFileHelpers: Loading map 'TestMap' took 0.299
+[2018.09.14-01.24.02:981][903]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.09.14-01.24.03:742][972]Cmd: DELETE
+[2018.09.14-01.24.03:742][972]Cmd: ACTOR DELETE
+[2018.09.14-01.24.03:753][972]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2018.09.14-01.24.03:838][972]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2018.09.14-01.24.05:332][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.24.09:240][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.24.09:348][559]LogTemp: Repeating last play command: 選択ビューポート
+[2018.09.14-01.24.09:366][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.24.09:366][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-01.24.09:366][559]PIE: New page: PIEセッション: TestMap (2018/09/14 19:24:09)
+[2018.09.14-01.24.09:366][559]LogPlayLevel: Creating play world package: /Game/SandBox/UEDPIE_0_TestMap
+[2018.09.14-01.24.09:376][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009442s)
+[2018.09.14-01.24.09:376][559]LogAIModule: Creating AISystem for world TestMap
+[2018.09.14-01.24.09:376][559]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2018.09.14-01.24.09:377][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox/TestMap.TestMap to /Game/SandBox/UEDPIE_0_TestMap.TestMap (0.010423s)
+[2018.09.14-01.24.09:404][559]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.24.09:408][559]LogInit: FAudioDevice initialized.
+[2018.09.14-01.24.09:441][559]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.14-01.24.09:443][559]LogWorld: Bringing World /Game/SandBox/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.09.14-10.24.09
+[2018.09.14-01.24.09:455][559]LogWorld: Bringing up level for play took: 0.012727
+[2018.09.14-01.24.09:474][559]LogBlueprintUserMessages: [BP_Owner_2] 0.0
+[2018.09.14-01.24.09:474][559]PIE: /Game/SandBox/UEDPIE_0_TestMap 0.672のプレイ イン エディタの開始時間
+[2018.09.14-01.24.09:474][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.24.13:103][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.24.13:103][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.24.13:141][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.14-01.24.13:142][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.24.13:183][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.24.13:205][987]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.14-01.24.14:353][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.24.37:784][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.24.37:814][903]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner79FED32C4920386A8C6030B2DC27FC45.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.24.38:212][950]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.24.46:767][904]LogSlate: Took 0.012109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Heavy.otf' (704K)
+[2018.09.14-01.24.46:780][904]LogSlate: Took 0.012884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.14-01.27.42:862][920]LogSlate: Took 0.004146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.14-01.34.20:040][212]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap_Auto1B289B12F4F8A422504F21B80B87E54A0.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/Autosaves/Game/SandBox/TestMap_Auto1.umap'
+[2018.09.14-01.34.20:044][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox/TestMap' took 0.252
+[2018.09.14-01.34.20:044][212]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.252
+[2018.09.14-01.34.20:049][212]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/BP_Owner] ([1] browsable assets)...
+[2018.09.14-01.34.20:066][212]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/BP_Owner.BP_Owner]
+[2018.09.14-01.34.20:067][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/BP_Owner]
+[2018.09.14-01.34.20:106][212]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner_Auto1BBEDFFD244367E6F9041F08B619E57C0.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/Autosaves/Game/Character/BP_Owner_Auto1.uasset'
+[2018.09.14-01.34.20:108][212]LogFileHelpers: Auto-saving content packages took 0.060
+[2018.09.14-01.37.37:415][609]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Character/PlayerState.PlayerState
+[2018.09.14-01.40.18:938][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PlayerState" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/PlayerState.uasset" SILENT=true
+[2018.09.14-01.40.18:946][465]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/PlayerStateB4858D144808EC2582991AB15770F087.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/PlayerState.uasset'
+[2018.09.14-01.40.20:646][631]LogSlate: Window 'PlayerState' being destroyed
+[2018.09.14-01.40.20:657][631]LogSlate: Window 'PlayerState' being destroyed
+[2018.09.14-01.41.56:731][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.41.56:780][428]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner00A8C1F54D01D9DC9397AA857D6B37FB.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.41.57:191][476]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.44.08:982][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.44.09:016][988]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner9E39AC0F4A7899B17FDB3ABE019AA7A5.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.44.09:475][ 41]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.44.42:807][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.44.42:837][657]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerF0ED9DCD46F62F28C245DFB7E37B150B.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.44.44:344][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.44.44:368][834]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerE98ED8AF4956E6B81874A191E6FB3583.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.44.44:827][887]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.45.47:720][873]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap_Auto276E365AD45ED6133344C64A0540B3C78.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/Autosaves/Game/SandBox/TestMap_Auto2.umap'
+[2018.09.14-01.45.47:726][873]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox/TestMap' took 0.176
+[2018.09.14-01.45.47:726][873]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
+[2018.09.14-01.45.47:730][873]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/BP_Owner] ([1] browsable assets)...
+[2018.09.14-01.45.47:758][873]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/BP_Owner.BP_Owner]
+[2018.09.14-01.45.47:758][873]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/BP_Owner]
+[2018.09.14-01.45.47:787][873]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner_Auto2A03CE3C248B86CEB8BF1DE8151590A59.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/Autosaves/Game/Character/BP_Owner_Auto2.uasset'
+[2018.09.14-01.45.47:789][873]LogFileHelpers: Auto-saving content packages took 0.060
+[2018.09.14-01.49.30:343][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.49.30:388][103]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerD9F33C7746B2855CC479EEB46A96EC3F.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.49.30:804][150]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.53.21:744][ 60]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.53.24:138][310]LogTemp: Repeating last play command: 選択ビューポート
+[2018.09.14-01.53.24:166][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.53.24:166][310]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2018.09.14-01.53.24:167][310]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2018.09.14-01.53.24:198][310]LogPlayLevel: PlayLevel: Blueprint regeneration took 32 ms (1 blueprints)
+[2018.09.14-01.53.24:198][310]PIE: New page: PIEセッション: TestMap (2018/09/14 19:53:24)
+[2018.09.14-01.53.24:198][310]LogPlayLevel: Creating play world package: /Game/SandBox/UEDPIE_0_TestMap
+[2018.09.14-01.53.24:208][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009278s)
+[2018.09.14-01.53.24:208][310]LogAIModule: Creating AISystem for world TestMap
+[2018.09.14-01.53.24:209][310]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2018.09.14-01.53.24:209][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox/TestMap.TestMap to /Game/SandBox/UEDPIE_0_TestMap.TestMap (0.010517s)
+[2018.09.14-01.53.24:240][310]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.53.24:245][310]LogInit: FAudioDevice initialized.
+[2018.09.14-01.53.24:276][310]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.14-01.53.24:277][310]LogWorld: Bringing World /Game/SandBox/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.09.14-10.53.24
+[2018.09.14-01.53.24:278][310]LogWorld: Bringing up level for play took: 0.001193
+[2018.09.14-01.53.24:291][310]PIE: /Game/SandBox/UEDPIE_0_TestMap -0.511のプレイ イン エディタの開始時間
+[2018.09.14-01.53.24:291][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.53.27:606][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.53.27:606][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.53.27:645][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.14-01.53.27:645][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.53.27:673][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.53.27:716][703]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.14-01.53.30:270][  2]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-01.53.55:729][985]LogSlate: Window '親クラスを選択' being destroyed
+[2018.09.14-01.54.25:812][960]LogMetaData: Removing '/Game/GameMode/BP_MaidGamemode.BP_MaidGamemode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GameMode/BP_MadeGamemode.PackageMetaData'
+[2018.09.14-01.54.25:812][960]LogMetaData: Removing '/Game/GameMode/BP_MaidGamemode.SKEL_BP_MaidGamemode_C' ref from Metadata '/Game/GameMode/BP_MadeGamemode.PackageMetaData'
+[2018.09.14-01.54.25:812][960]LogMetaData: Removing '/Game/GameMode/BP_MaidGamemode.BP_MaidGamemode_C' ref from Metadata '/Game/GameMode/BP_MadeGamemode.PackageMetaData'
+[2018.09.14-01.54.25:812][960]LogMetaData: Removing '/Game/GameMode/BP_MaidGamemode.BP_MaidGamemode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GameMode/BP_MadeGamemode.PackageMetaData'
+[2018.09.14-01.54.25:812][960]LogMetaData: Removing '/Game/GameMode/BP_MaidGamemode.BP_MaidGamemode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GameMode/BP_MadeGamemode.PackageMetaData'
+[2018.09.14-01.54.25:831][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_MaidGamemode" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/GameMode/BP_MaidGamemode.uasset" SILENT=true
+[2018.09.14-01.54.25:841][960]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_MaidGamemode9D111B0243E8CC33DB3E50B0E111190F.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/GameMode/BP_MaidGamemode.uasset'
+[2018.09.14-01.54.28:339][226]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GameMode/BP_MaidGamemode.BP_MaidGamemode
+[2018.09.14-01.54.30:882][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_MaidGamemode" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/GameMode/BP_MaidGamemode.uasset" SILENT=true
+[2018.09.14-01.54.30:898][460]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_MaidGamemode193FC4A74CECE8181D0A7F939FEE6AF1.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/GameMode/BP_MaidGamemode.uasset'
+[2018.09.14-01.54.31:180][493]BlueprintLog: New page: BP_MaidGamemode をコンパイル
+[2018.09.14-01.54.34:810][908]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.14-01.54.38:801][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/BP_MaidGamemode" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/GameMode/BP_MaidGamemode.uasset" SILENT=true
+[2018.09.14-01.54.38:813][358]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_MaidGamemode855564C64C9F472B714C678A9EA57FAF.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/GameMode/BP_MaidGamemode.uasset'
+[2018.09.14-01.54.39:478][437]BlueprintLog: New page: BP_MaidGamemode をコンパイル
+[2018.09.14-01.54.45:332][106]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.14-01.54.48:885][473]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap9DF0F5234C26238A4CC8D2A2573B0E81.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap.umap'
+[2018.09.14-01.54.48:915][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox/TestMap_BuiltData" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap_BuiltData.uasset" SILENT=true
+[2018.09.14-01.54.49:010][473]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap_BuiltData194ACD2A4EAD5B391B795CBBE9C0E643.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap_BuiltData.uasset'
+[2018.09.14-01.54.49:573][512]LogTemp: Repeating last play command: 選択ビューポート
+[2018.09.14-01.54.49:596][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.54.49:596][512]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2018.09.14-01.54.49:656][512]LogPlayLevel: [PlayLevel] Compiling BP_Owner before play...
+[2018.09.14-01.54.49:819][512]LogPlayLevel: PlayLevel: Blueprint regeneration took 222 ms (1 blueprints)
+[2018.09.14-01.54.49:819][512]PIE: New page: PIEセッション: TestMap (2018/09/14 19:54:49)
+[2018.09.14-01.54.49:819][512]LogPlayLevel: Creating play world package: /Game/SandBox/UEDPIE_0_TestMap
+[2018.09.14-01.54.49:827][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008352s)
+[2018.09.14-01.54.49:829][512]LogAIModule: Creating AISystem for world TestMap
+[2018.09.14-01.54.49:829][512]LogPlayLevel: PIE: World Init took: (0.001731s)
+[2018.09.14-01.54.49:829][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox/TestMap.TestMap to /Game/SandBox/UEDPIE_0_TestMap.TestMap (0.010393s)
+[2018.09.14-01.54.49:861][512]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.54.49:864][512]LogInit: FAudioDevice initialized.
+[2018.09.14-01.54.49:903][512]LogLoad: Game class is 'BP_MaidGamemode_C'
+[2018.09.14-01.54.49:907][512]LogWorld: Bringing World /Game/SandBox/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.09.14-10.54.49
+[2018.09.14-01.54.49:907][512]LogWorld: Bringing up level for play took: 0.002177
+[2018.09.14-01.54.49:921][512]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.54.49:922][512]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.54.49:922][512]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.54.49:925][512]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.54.49:925][512]PIE: /Game/SandBox/UEDPIE_0_TestMap 1.123のプレイ イン エディタの開始時間
+[2018.09.14-01.54.49:926][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.54.54:867][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.54.54:867][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.54.54:902][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.14-01.54.54:903][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.54.54:931][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.54.54:972][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.14-01.55.46:770][274]LogEditorViewport: Clicking on Actor (LMB): BP_Owner_C (BP_Owner)
+[2018.09.14-01.55.47:493][352]Cmd: DELETE
+[2018.09.14-01.55.47:494][352]Cmd: ACTOR DELETE
+[2018.09.14-01.55.47:497][352]LogEditorActor: Deleted Actor: BP_Owner_C
+[2018.09.14-01.55.47:524][352]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2018.09.14-01.55.48:621][481]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-01.55.48:780][481]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMapF924AD324F2E5E714DCB2FB964234E18.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap.umap'
+[2018.09.14-01.55.48:820][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SandBox/TestMap_BuiltData" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap_BuiltData.uasset" SILENT=true
+[2018.09.14-01.55.48:910][481]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap_BuiltData571AC0064D05F0B88359A880D1D9EC29.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap_BuiltData.uasset'
+[2018.09.14-01.56.05:906][472]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-01.56.07:528][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-01.56.39:574][335]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.09.14-01.56.41:901][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.56.46:721][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.56.51:413][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.56.51:503][594]LogTemp: Repeating last play command: 選択ビューポート
+[2018.09.14-01.56.51:525][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.56.51:525][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-01.56.51:525][594]PIE: New page: PIEセッション: TestMap (2018/09/14 19:56:51)
+[2018.09.14-01.56.51:525][594]LogPlayLevel: Creating play world package: /Game/SandBox/UEDPIE_0_TestMap
+[2018.09.14-01.56.51:534][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008758s)
+[2018.09.14-01.56.51:535][594]LogAIModule: Creating AISystem for world TestMap
+[2018.09.14-01.56.51:535][594]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2018.09.14-01.56.51:535][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox/TestMap.TestMap to /Game/SandBox/UEDPIE_0_TestMap.TestMap (0.009775s)
+[2018.09.14-01.56.51:593][594]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.56.51:597][594]LogInit: FAudioDevice initialized.
+[2018.09.14-01.56.51:633][594]LogLoad: Game class is 'BP_MaidGamemode_C'
+[2018.09.14-01.56.51:637][594]LogWorld: Bringing World /Game/SandBox/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.09.14-10.56.51
+[2018.09.14-01.56.51:638][594]LogWorld: Bringing up level for play took: 0.002124
+[2018.09.14-01.56.51:652][594]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.56.51:652][594]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.56.51:652][594]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.56.51:655][594]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.56.51:655][594]PIE: /Game/SandBox/UEDPIE_0_TestMap 0.853のプレイ イン エディタの開始時間
+[2018.09.14-01.56.51:656][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.56.52:880][732]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.56.52:881][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.56.52:918][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.14-01.56.52:919][732]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.56.52:977][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.56.52:996][733]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.14-01.56.54:278][879]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-01.56.55:390][976]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-01.56.55:391][976]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap
+[2018.09.14-01.57.55:458][824]LogSlate: Window 'TestMap* - レベルブループリントエディタ' being destroyed
+[2018.09.14-01.58.42:854][425]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap52E85BAE4CAEBEF119958D9E43EFB5DE.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap.umap'
+[2018.09.14-01.58.42:884][425]LogFileHelpers: Saving map 'TestMap' took 0.258
+[2018.09.14-01.58.43:213][455]BlueprintLog: New page: TestMap をコンパイル
+[2018.09.14-01.58.45:474][688]LogTemp: Repeating last play command: 選択ビューポート
+[2018.09.14-01.58.45:496][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.58.45:496][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-01.58.45:496][688]PIE: New page: PIEセッション: TestMap (2018/09/14 19:58:45)
+[2018.09.14-01.58.45:496][688]LogPlayLevel: Creating play world package: /Game/SandBox/UEDPIE_0_TestMap
+[2018.09.14-01.58.45:505][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009269s)
+[2018.09.14-01.58.45:506][688]LogAIModule: Creating AISystem for world TestMap
+[2018.09.14-01.58.45:507][688]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2018.09.14-01.58.45:507][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox/TestMap.TestMap to /Game/SandBox/UEDPIE_0_TestMap.TestMap (0.010798s)
+[2018.09.14-01.58.45:566][688]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.58.45:570][688]LogInit: FAudioDevice initialized.
+[2018.09.14-01.58.45:604][688]LogLoad: Game class is 'BP_MaidGamemode_C'
+[2018.09.14-01.58.45:607][688]LogWorld: Bringing World /Game/SandBox/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.09.14-10.58.45
+[2018.09.14-01.58.45:608][688]LogWorld: Bringing up level for play took: 0.001480
+[2018.09.14-01.58.45:621][688]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.58.45:621][688]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.58.45:621][688]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.58.45:629][688]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.58.45:629][688]PIE: /Game/SandBox/UEDPIE_0_TestMap 0.827のプレイ イン エディタの開始時間
+[2018.09.14-01.58.45:630][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.58.53:604][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.58.53:604][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.58.53:642][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.14-01.58.53:642][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.58.53:696][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.58.53:712][635]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.14-01.58.54:734][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-01.59.40:795][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-01.59.40:862][641]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner2B63B3904BCA09E79B94949D8AC32F2F.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-01.59.41:794][745]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-01.59.44:232][986]LogTemp: Repeating last play command: 選択ビューポート
+[2018.09.14-01.59.44:253][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.59.44:253][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.14-01.59.44:253][986]PIE: New page: PIEセッション: TestMap (2018/09/14 19:59:44)
+[2018.09.14-01.59.44:253][986]LogPlayLevel: Creating play world package: /Game/SandBox/UEDPIE_0_TestMap
+[2018.09.14-01.59.44:263][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009287s)
+[2018.09.14-01.59.44:264][986]LogAIModule: Creating AISystem for world TestMap
+[2018.09.14-01.59.44:264][986]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2018.09.14-01.59.44:264][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SandBox/TestMap.TestMap to /Game/SandBox/UEDPIE_0_TestMap.TestMap (0.010477s)
+[2018.09.14-01.59.44:293][986]LogInit: XAudio2 using 'ASUS PB279 (インテル(R) ディスプレイ用オーディオ)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.14-01.59.44:297][986]LogInit: FAudioDevice initialized.
+[2018.09.14-01.59.44:325][986]LogLoad: Game class is 'BP_MaidGamemode_C'
+[2018.09.14-01.59.44:326][986]LogWorld: Bringing World /Game/SandBox/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.09.14-10.59.44
+[2018.09.14-01.59.44:327][986]LogWorld: Bringing up level for play took: 0.000753
+[2018.09.14-01.59.44:339][986]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.59.44:340][986]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.14-01.59.44:340][986]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.59.44:342][986]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.14-01.59.44:342][986]PIE: /Game/SandBox/UEDPIE_0_TestMap -0.461のプレイ イン エディタの開始時間
+[2018.09.14-01.59.44:342][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.59.47:306][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.59.47:306][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.59.47:341][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.14-01.59.47:342][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SandBox/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/SandBox/TestMap.TestMap_C' with ClassGeneratedBy '/Game/SandBox/TestMap.TestMap:PersistentLevel.TestMap'
+[2018.09.14-01.59.47:367][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.14-01.59.47:409][336]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.14-01.59.55:446][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-02.08.53:909][176]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap_Auto35BF181784DFC17C0061E43A91AF8F187.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/Autosaves/Game/SandBox/TestMap_Auto3.umap'
+[2018.09.14-02.08.53:915][176]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SandBox/TestMap' took 0.209
+[2018.09.14-02.08.53:915][176]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.209
+[2018.09.14-02.15.18:662][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-02.15.18:717][951]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_OwnerC98BABB74BC4ADF81BF72CA368819BB9.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-02.15.19:109][995]BlueprintLog: New page: BP_Owner をコンパイル
+[2018.09.14-02.19.28:940][258]LogSlate: Window 'コンテンツを保存' being destroyed
+[2018.09.14-02.19.28:969][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/BP_Owner" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset" SILENT=true
+[2018.09.14-02.19.29:021][258]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/BP_Owner7A1729F943505D17F97589B78FE83596.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/Character/BP_Owner.uasset'
+[2018.09.14-02.19.29:278][258]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Saved/TestMap0C3E286A43CE1102B701EE89BB455648.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/MaidWars/Content/SandBox/TestMap.umap'
+[2018.09.14-02.19.29:311][258]LogFileHelpers: Saving map 'TestMap' took 0.273
